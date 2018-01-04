@@ -1,0 +1,13 @@
+C:\Users\9160132\Desktop\Projeto de AED\Gestão de Itinerários Turísticos\Gestão de Itinerários Turísticos\bin\Debug\Gestão de Itinerários Turísticos.exe.config
+C:\Users\9160132\Desktop\Projeto de AED\Gestão de Itinerários Turísticos\Gestão de Itinerários Turísticos\bin\Debug\Gestão de Itinerários Turísticos.exe
+C:\Users\9160132\Desktop\Projeto de AED\Gestão de Itinerários Turísticos\Gestão de Itinerários Turísticos\bin\Debug\Gestão de Itinerários Turísticos.pdb
+C:\Users\9160132\Desktop\Projeto de AED\Gestão de Itinerários Turísticos\Gestão de Itinerários Turísticos\obj\Debug\Gestão de Itinerários Turísticos.csprojResolveAssemblyReference.cache
+C:\Users\9160132\Desktop\Projeto de AED\Gestão de Itinerários Turísticos\Gestão de Itinerários Turísticos\obj\Debug\Gestão_de_Itinerários_Turísticos.Properties.Resources.resources
+C:\Users\9160132\Desktop\Projeto de AED\Gestão de Itinerários Turísticos\Gestão de Itinerários Turísticos\obj\Debug\Gestão de Itinerários Turísticos.csproj.GenerateResource.Cache
+C:\Users\9160132\Desktop\Projeto de AED\Gestão de Itinerários Turísticos\Gestão de Itinerários Turísticos\obj\Debug\Gestão de Itinerários Turísticos.exe
+C:\Users\9160132\Desktop\Projeto de AED\Gestão de Itinerários Turísticos\Gestão de Itinerários Turísticos\obj\Debug\Gestão de Itinerários Turísticos.pdb
+C:\Users\9160132\Desktop\Projeto de AED\Gestão de Itinerários Turísticos\Gestão de Itinerários Turísticos\obj\Debug\Gestão_de_Itinerários_Turísticos.Menu.resources
+C:\Users\9160132\Desktop\Projeto de AED\Gestão de Itinerários Turísticos\Gestão de Itinerários Turísticos\obj\Debug\Gestão_de_Itinerários_Turísticos.Registo.resources
+C:\Users\9160132\Desktop\Projeto de AED\Gestão de Itinerários Turísticos\Gestão de Itinerários Turísticos\obj\Debug\Gestão_de_Itinerários_Turísticos.Login.resources
+C:\Users\9160132\Desktop\Projeto de AED\Gestão de Itinerários Turísticos\Gestão de Itinerários Turísticos\obj\Debug\Gestão_de_Itinerários_Turísticos.Itinerarios.resources
+C:\Users\9160132\Desktop\Projeto de AED\Gestão de Itinerários Turísticos\Gestão de Itinerários Turísticos\obj\Debug\Gestão_de_Itinerários_Turísticos.MenuAdmin.resources
