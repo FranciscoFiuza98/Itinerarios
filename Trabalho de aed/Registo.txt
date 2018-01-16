@@ -1,0 +1,74 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.IO;
+
+namespace Gestão_de_Itinerários_Turísticos
+{
+    public partial class Registo : Form
+    {
+        public Registo()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string nome = textBox1.Text;
+            string email = textBox2.Text;
+            string password = textBox3.Text;
+            string tipoutilizador = comboBox1.Text;
+
+            if (string.IsNullOrEmpty(nome))     
+            {
+                MessageBox.Show("Todos os espaços têm de estar preenchidos", "Registo", MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
+            }
+            if (string.IsNullOrEmpty(email))
+            {
+                MessageBox.Show("Todos os espaços têm de estar preenchidos", "Registo", MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
+            }
+            if (string.IsNullOrEmpty(password))
+            {
+                MessageBox.Show("Todos os espaços têm de estar preenchidos", "Registo", MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
+            }
+            if (string.IsNullOrEmpty(tipoutilizador))
+            {
+                MessageBox.Show("Todos os espaços têm de estar preenchidos", "Registo", MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
+            }
+
+            string ficheiro = @"utilizadores.txt";
+            StreamWriter sw;
+
+            if (File.Exists(ficheiro) == true)
+            {
+                sw = File.AppendText(ficheiro);
+            }
+            else
+            {
+                sw = File.CreateText(ficheiro);
+            }
+            string linha = nome + ";" + email + ";" + password + ";" + tipoutilizador + ";";
+            MessageBox.Show(linha);
+            sw.WriteLine(linha);
+            sw.Close();
+            this.Hide();
+        }
+
+    }
+}
